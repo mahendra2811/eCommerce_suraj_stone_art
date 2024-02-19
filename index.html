@@ -1,0 +1,743 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title> Home | Suraj stone art </title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script src="js/jquery.min.js"></script>
+	<!--<script src="js/jquery.easydropdown.js"></script>-->
+	<!--start slider -->
+	<link rel="stylesheet" href="css/fwslider.css" media="all">
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/fwslider.js"></script>
+	<!--end slider -->
+
+
+	<!--- favicon -->
+	<link rel="shortcut icon" href="./images/favicon.png" type="image/svg+xml">
+
+
+
+	<!-- for magic scroll start  -->
+	<!-- <link rel="stylesheet" href="./css/magicscroll.css"> -->
+	<!-- <script src="./js/magicscroll.js"></script> -->
+	<!-- for magic scroll end -->
+
+
+	<!-- for scroll images start -->
+	<link rel="stylesheet" href="./css/scroll.css">
+	<script src="./js/magicscroll.js"></script>
+	<!-- for scroll images end -->
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$(".dropdown img.flag").addClass("flagvisibility");
+
+			$(".dropdown dt a").click(function () {
+				$(".dropdown dd ul").toggle();
+			});
+
+			$(".dropdown dd ul li a").click(function () {
+				var text = $(this).html();
+				$(".dropdown dt a span").html(text);
+				$(".dropdown dd ul").hide();
+				$("#result").html("Selected value is: " + getSelectedValue("sample"));
+			});
+
+			function getSelectedValue(id) {
+				return $("#" + id).find("dt a span.value").html();
+			}
+
+			$(document).bind('click', function (e) {
+				var $clicked = $(e.target);
+				if (!$clicked.parents().hasClass("dropdown"))
+					$(".dropdown dd ul").hide();
+			});
+
+
+			$("#flagSwitcher").click(function () {
+				$(".dropdown img.flag").toggleClass("flagvisibility");
+			});
+		});
+	</script>
+
+
+</head>
+
+<body>
+		<!-- whatsapp fixed icon html start  -->
+		<!-- for whatsapp flot icon start  -->
+
+		<a class="whapp animated pulse"
+        href="https://wa.me/919460868012?text=hello%20Mahipal%20ji%20send%20me%20Suraj%20stone%20art%20catelog ."
+        target="_blank">
+        <div class="whapp-btn">
+          <img
+            src="https://uploads-ssl.webflow.com/62b5ca109278e030a060e942/62bf28776d90ec6fa2bec0f4_iconmonstr-whatsapp-1-240.png">
+        </div>
+      </a>
+      <!-- for whatsapp flot icon end   -->
+<!-- whatsapp fixed icon html end  -->
+	
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header-left">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo-1.png" alt="" /></a>
+						</div>
+						<div class="menu">
+							<a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+							<ul class="nav" id="nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About us</a></li>
+								<li><a href="products.html">Stone Products</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="header_right">
+						<!-- start search-->
+						<div class="search-box">
+							<div id="sb-search" class="sb-search">
+								<form>
+									<input class="sb-search-input" placeholder="Enter your search term..." type="search"
+										name="search" id="search">
+									<input class="sb-search-submit" type="submit" value="">
+									<span class="sb-icon-search"> </span>
+								</form>
+							</div>
+						</div>
+						<!----search-scripts---->
+						<script src="js/classie.js"></script>
+						<script src="js/uisearch.js"></script>
+						<script>
+							new UISearch(document.getElementById('sb-search'));
+						</script>
+						<!----//search-scripts---->
+						<ul class="icon1 sub-icon1 profile_img">
+							<li><a class="active-icon c1" href="#"> </a>
+								<ul class="sub-icon1 list">
+									<div class="product_control_buttons">
+										<a href="#"><img src="images/edit.png" alt="" /></a>
+										<a href="#"><img src="images/close_edit.png" alt="" /></a>
+									</div>
+									<div class="clear"></div>
+									<li class="list_img"><img src="images/1.jpg" alt="" /></li>
+									<li class="list_desc">
+										<h4><a href="#">stone</a></h4><span class="actual">1 x
+											₹12.00</span>
+									</li>
+									<div class="login_buttons">
+										<div class="check_button"><a href="checkout.html">Check out</a></div>
+										<div class="login_button"><a href="login.html">Login</a></div>
+										<div class="clear"></div>
+									</div>
+									<div class="clear"></div>
+								</ul>
+							</li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="banner">
+		<!-- start slider -->
+		<div id="fwslider">
+			<div class="slider_container">
+				<div class="slide">
+					<!-- Slide image -->
+					<img src="images/home/banner-1.jpg" class="img-responsive" alt="" />
+					<!-- /Slide image -->
+					<!-- Texts container -->
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<!-- Text title -->
+							<h1 class="title">Sculaptiong Dreams In Stone</h1>
+							<!-- /Text title -->
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+					<!-- /Texts container -->
+				</div>
+				<!-- /Duplicate to create more slides -->
+				<div class="slide">
+					<img src="images/home/banner-8.jpg" class="img-responsive" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h1 class="title">Stunning Stone Elegance Unleashed</h1>
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="images/home/banner-7.jpg" class="img-responsive" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h1 class="title">Stunning Stone Elegance Unleashed</h1>
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="images/home/banner-6.jpg" class="img-responsive" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h1 class="title">Timeless Craftsmanship, Enduring Beauty</h1>
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="images/home/banner-5.jpg" class="img-responsive" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h1 class="title">Elevate Your Space with Artful Stone</h1>
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="images/home/banner-4.jpg" class="img-responsive" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h1 class="title">Our Stone:Crafted, Elegant, Timeless</h1>
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="images/home/banner-3.jpg" class="img-responsive" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h1 class="title">Architectural Marvels in Every Stone</h1>
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="images/home/banner-2.jpg" class="img-responsive" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h1 class="title">Stone Art Excellence Beyond Imagination</h1>
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="images/home/banner-1.jpg" class="img-responsive" alt="" />
+					<div class="slide_content">
+						<div class="slide_content_wrap">
+							<h1 class="title">Your Vision, Our Stone, Unmatched Brilliance</h1>
+							<div class="button"><a href="contact.html">Contact US</a></div>
+						</div>
+					</div>
+				</div>
+				<!--/slide -->
+			</div>
+			<div class="timers"></div>
+			<div class="slidePrev"><span></span></div>
+			<div class="slideNext"><span></span></div>
+		</div>
+		<!--/slider -->
+	</div>
+	<br><br>
+
+
+
+
+	<div class="row">
+		<div class="col-md-4 team_bottom ">
+			<ul class="team_list">
+				<h4>Why <b><b>  Suraj stone art </b></b>  ?</h4>
+				<!-- <li><a href="#">Exceptional Craftsmanship</a>
+					<p>Elevate your spaces with our masterful stone craftsmanship, where every piece is meticulously
+						carved by skilled artisans, preserving the legacy of ancient techniques.</p>
+				</li> -->
+				<li><a href="#">Premium Quality Materials</a>
+					<p>We pride ourselves on using the finest Jodhpur stone, meticulously selected and sourced, ensuring
+						enduring beauty and longevity in every stone art creation.</p>
+				</li>
+				<li><a href="#">Innovative Design Solutions</a>
+					<p>From traditional to contemporary, Suraj Stone Art offers innovative design solutions, seamlessly
+						blending timeless elegance with modern aesthetics.</p>
+				</li>
+				<!-- <li><a href="#">Customer-Centric Approach</a>
+					<p>Your satisfaction is our priority. We strive to exceed expectations with dedicated customer
+						service, ensuring a seamless journey from consultation to installation.</p>
+				</li> -->
+				<li><a href="#">Legacy of Expertise</a>
+					<p>With over two decades of expertise, <b> Suraj Stone Art</b> continues to be a beacon of excellence,
+						adorning prestigious structures and homes with unparalleled stone art.</p>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-8">
+			<ul class="team_list">
+				<h4>About Us</h4>
+				<p class="m_7">Established in 1992, <b> Suraj Stone Art</b> stands as a trailblazer in the domain of natural stone craftsmanship. Located in <b> Jodhpur, Rajasthan, India</b>, we specialize in enhancing the intrinsic beauty of natural stones through intricate carving, catering to both architectural and interior applications..</p>
+
+				<p class="m_7">Our factory seamlessly blends traditional craftsmanship with modern technologies, resulting in a harmonious synergy that produces stunning stone art. From manufacturing various finishes for cladding and flooring to creating diverse installations, Suraj Stone Art is committed to excellence</p>
+				<p class="m_7">Beyond expertise in natural stone applications, architectural structures, and ornamental artifacts, we pride ourselves as a distinguished supplier of supreme quality stone products. Our works grace renowned <i> hotels, landmark buildings, public spaces, and private homes </i>, reflecting our commitment to delivering excellence in every creation.</p>
+				<p class="m_7">At <b>Suraj Stone Art</b>, our mission is to offer <i>innovative designs, premium quality, and exceptional service </i> to our clients. We aspire to preserve and promote the rich tradition of stone carving while embracing modern techniques to meet the evolving needs of the industry.</p>
+				
+				<!-- <h4>Vision</h4>
+				<p class="m_7"> Suraj Stone Art envisions being a brand synonymous with excellence in stone
+					craftsmanship, contributing to the beauty and elegance of architectural and interior spaces
+					worldwide.
+					<br>Choose Suraj Stone Art for a journey through the legacy of stone craftsmanship, where tradition
+					meets innovation to create timeless masterpieces.
+				</p> -->
+				<!-- <img src="images/team5.jpg" class="img-responsive" alt=""/> -->
+			</ul>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+
+
+	<div class="content-bottom">
+		<div class="container">
+			<div class="row content_bottom-text">
+				<div class="col-md-7">
+					<h3 class="m_30">Discover the Timeless Beauty of Jodhpuri Stone</h3>
+
+					<p class="m_10">"Jodhpuri stone, a treasure from the heart of Rajasthan, carries the essence of
+						centuries-old craftsmanship and cultural heritage. Suraj Stone Art stands as the guardian of
+						this legacy, breathing life into each stone with precision and passion. As we meticulously
+						carve, shape, and design, we not only preserve the historical significance of Jodhpuri stone but
+						also propel it into the modern era.
+						<br>
+
+						At Suraj Stone Art, we recognize the importance of Jodhpuri stone as more than just a material.
+						It is a narrative etched in time, a testament to the rich artistic traditions of Rajasthan. Our
+						role extends beyond creating stone masterpieces; we are the custodians of an art form that
+						bridges the past with the present. Through our craftsmanship, we bring the enduring beauty of
+						Jodhpuri stone to homes, structures, and spaces worldwide.
+						
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="features">
+		<div class="container">
+			<h3 class="m_3">Features</h3>
+			<!-- <div class="close_but"><i class="close1"> </i></div> -->
+
+
+			<div class="row">
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-1.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Front Elevation </h2>
+								<p>Where Jodhpuri Stone Artistry Meets Architectural Grandeur</p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone front Elevation</a></h4>
+					<p class="m_5">Stone elevation for Bungalow, hotels, temple, flats with the timeless beauty of
+						Jodhpuri stone craftsmanship, blending tradition and elegance in every detail.</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-2.jpg" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone jali latice </h2>
+								<p>Stone jali for temple, garden, Bungalow's elevation design</p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone jali latice </a></h4>
+					<p class="m_5">Experience the artistry of stone jali lattice, adding a touch of elegance and
+						sophistication to your surroundings.</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-3.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Buildling Stone </h2>
+								<p>Stone chokhat, cladding, gate, window, pillar.</p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Buildling Stone</a></h4>
+					<p class="m_5">Elevate your construction with the timeless beauty and durability of building stones,
+						bringing architectural excellence to every structure.</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-4.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Garden & Landscaping</h2>
+								<p>Stone Furniture, Stone Lamp, fountain, planter, paving.</p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Garden & Landscaping</a></h4>
+					<p class="m_5">Transform your outdoor oasis with our premium stones, enhancing the beauty of gardens
+						and landscapes with timeless elegance and natural allure.</p>
+				</div>
+			</div>
+
+<!-- next row  -->
+<br>
+			<div class="row">
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-8.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone lamp</h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone lamp</a></h4>
+					<p class="m_5">lluminate your surroundings with the warm glow of our artisan-crafted stone lamps.</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-7.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone Planter</h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone Planter</a></h4>
+					<p class="m_5">Bring nature to your doorstep with our uniquely designed stone planters.
+					</p>
+				</div>
+
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-6.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone furniture</h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone furniture</a></h4>
+					<p class="m_5">Crafted with precision, our stone furniture blends durability with timeless design</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-5.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone paving</h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone Paving</a></h4>
+					<p class="m_5">Create pathways of enduring beauty with our exquisite stone paving solutions.
+					</p>
+				</div>
+
+			</div>
+<br>
+
+			<!-- 3rd row  -->
+<div class="row">
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-20.jpg" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Jodhpuri khanda blocks </h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Jodhpuri khanda blocks </a></h4>
+					<p class="m_5">Elevate your construction with the timeless strength and beauty of Jodhpuri Khanda blocks.</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-10.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone Tiles</h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone Tiles</a></h4>
+					<p class="m_5">Transform your space with the elegance of meticulously crafted stone tiles.
+					</p>
+				</div>
+
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-16.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone big slab</h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone big slab</a></h4>
+					<p class="m_5">Make a statement with our large stone slabs, blending sophistication with durability.
+					</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-18.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone floor design</h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone floor design</a></h4>
+					<p class="m_5">Step into luxury with our intricately designed stone floor patterns.
+
+					</p>
+				</div>
+
+			</div>
+
+			<!-- 3rd row end  -->
+			<br>
+			<!-- 4th row start -->
+			<div class="row">
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-19.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2> Stone Naming </h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#" >Stone Naming  </a></h4>
+					<p class="m_5">Personalize your space with the enduring charm of custom-engraved stone naming.
+					</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-17.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone Chokhat </h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone Chokhat</a></h4>
+					<p class="m_5">Adorn your entrances with the traditional grandeur of intricately carved stone chokhat.
+
+					</p>
+				</div>
+
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-14.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Boundary Wall </h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Boundary Wall</a></h4>
+					<p class="m_5">Define your property with the strength and elegance of our stone boundary walls.
+					</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-15.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Stone statue</h2>
+								<p>Suraj stone art </p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Stone statue</a></h4>
+					<p class="m_5">Capture artistry in stone with our sculpted masterpieces, adding grace to your surroundings.
+
+
+
+
+					</p>
+				</div>
+
+			</div>
+			<!-- 4th row end  -->
+
+
+
+		</div>
+	</div>
+	
+
+
+
+	<!-- logo image start-->
+	<div class="image-container_name">
+        <!-- <img src="./images/home/bg_3.png" alt="Image 1"> -->
+        <img src="./images/home/bg_4.png" alt="Image 1">
+        <img src="./images/home/bg_8.jpeg" alt="Image 1">
+        <img src="./images/home/bg_6.png" alt="Image 1">
+        <!-- <img src="./images/home/bg_7.png" alt="Image 1"> -->
+    </div>
+	<!-- logo image end-->
+
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.187492330443!2d72.89026747432014!3d26.352797083930447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39419b8d9a79ea29%3A0x2a269789bdf9bf20!2sSuraj%20Stone%20Art!5e0!3m2!1sen!2sin!4v1708247855410!5m2!1sen!2sin"
+						width="250" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Products</h4>
+						<li><a href="#">Products-1</a></li>
+						<li><a href="#">Products-2</a></li>
+						<li><a href="#">Products-3</a></li>
+						<li><a href="#">Products-4</a></li>
+
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Links</h4>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./team.html">About US</a></li>
+						<li><a href="./shop.html">Stone Product</a></li>
+						<li><a href="./experiance.html">Gallery</a></li>
+						<li><a href="./contact.html">Contact US</a></li>
+						<li><a href="./team.html">Our team</a></li>
+						<li><a href="#">Calalog Request</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Newsletter</h4>
+						<div class="footer_search">
+							<form>
+								<input type="text" value="Enter your email" onfocus="this.value = '';"
+									onblur="if (this.value == '') {this.value = 'Enter your email';}">
+								<input type="submit" value="Go">
+							</form>
+						</div>
+						<ul class="social">
+							<li class="facebook"><a href="#"><span> </span></a></li>
+							<li class="twitter"><a href="#"><span> </span></a></li>
+							<li class="instagram"><a href="#"><span> </span></a></li>
+							<li class="pinterest"><a href="#"><span> </span></a></li>
+							<li class="youtube"><a href="#"><span> </span></a></li>
+						</ul>
+
+					</ul>
+				</div>
+			</div>
+			<div class="row footer_bottom">
+				<div class="copy">
+					<p>© 2024 | All rights reserved to suraj stone art | Designed by - Mahendra Singh Puniya</p>
+				</div>
+				<dl id="sample" class="dropdown">
+					<dt><a><span>Change Region</span></a></dt>
+					<dd>
+						<ul>
+							<li><a href="#">India<img class="flag" src="images/as.png" alt="" /><span
+										class="value">IN</span></a></li>
+							<li><a href="#">United State<img class="flag" src="images/as.png" alt="" /><span
+										class="value">USA</span></a></li>
+							<li><a href="#">Nepal<img class="flag" src="images/as.png" alt="" /><span
+										class="value">IN</span></a></li>
+							<li><a href="#">China<img class="flag" src="images/as.png" alt="" /><span
+										class="value">IN</span></a></li>
+							<li><a href="#">China<img class="flag" src="images/as.png" alt="" /><span
+										class="value">IN</span></a></li>
+
+						</ul>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

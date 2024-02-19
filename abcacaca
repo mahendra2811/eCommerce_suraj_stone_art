@@ -1,0 +1,68 @@
+	<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-8.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Garden & Landscaping</h2>
+								<p>Stone Furniture, Stone Lamp, fountain, planter, paving.</p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Garden & Landscaping</a></h4>
+					<p class="m_5">Transform your outdoor oasis with our premium stones, enhancing the beauty of gardens
+						and landscapes with timeless elegance and natural allure.</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-7.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Garden & Landscaping</h2>
+								<p>Stone Furniture, Stone Lamp, fountain, planter, paving.</p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Garden & Landscaping</a></h4>
+					<p class="m_5">Transform your outdoor oasis with our premium stones, enhancing the beauty of gardens
+						and landscapes with timeless elegance and natural allure.</p>
+				</div>
+
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-6.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Garden & Landscaping</h2>
+								<p>Stone Furniture, Stone Lamp, fountain, planter, paving.</p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Garden & Landscaping</a></h4>
+					<p class="m_5">Transform your outdoor oasis with our premium stones, enhancing the beauty of gardens
+						and landscapes with timeless elegance and natural allure.</p>
+				</div>
+
+				<div class="col-md-3 top_box">
+					<div class="view view-ninth">
+						<a href="single.html">
+							<img src="./images/home/feature-5.png" class="img-responsive" alt="" />
+							<div class="mask mask-1"> </div>
+							<div class="mask mask-2"> </div>
+							<div class="content">
+								<h2>Garden & Landscaping</h2>
+								<p>Stone Furniture, Stone Lamp, fountain, planter, paving.</p>
+							</div>
+						</a>
+					</div>
+					<h4 class="m_4"><a href="#">Garden & Landscaping</a></h4>
+					<p class="m_5">Transform your outdoor oasis with our premium stones, enhancing the beauty of gardens
+						and landscapes with timeless elegance and natural allure.</p>
+				</div>

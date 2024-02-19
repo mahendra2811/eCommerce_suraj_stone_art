@@ -1,0 +1,682 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Gallery | Suraj stone art </title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$(".dropdown img.flag").addClass("flagvisibility");
+
+			$(".dropdown dt a").click(function () {
+				$(".dropdown dd ul").toggle();
+			});
+
+			$(".dropdown dd ul li a").click(function () {
+				var text = $(this).html();
+				$(".dropdown dt a span").html(text);
+				$(".dropdown dd ul").hide();
+				$("#result").html("Selected value is: " + getSelectedValue("sample"));
+			});
+
+			function getSelectedValue(id) {
+				return $("#" + id).find("dt a span.value").html();
+			}
+
+			$(document).bind('click', function (e) {
+				var $clicked = $(e.target);
+				if (!$clicked.parents().hasClass("dropdown"))
+					$(".dropdown dd ul").hide();
+			});
+
+
+			$("#flagSwitcher").click(function () {
+				$(".dropdown img.flag").toggleClass("flagvisibility");
+			});
+		});
+	</script>
+	<!-- light-box -->
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
+
+	<!-- scroll mahi css start  -->
+	<link rel="stylesheet" href="./css/scroll.css">
+	<!-- scroll mahi css end -->
+
+
+</head>
+
+<body>
+	<!-- whatsapp fixed icon html start  -->
+		<!-- for whatsapp flot icon start  -->
+
+		<a class="whapp animated pulse"
+        href="https://wa.me/919460868012?text=hello%20Mahipal%20ji%20send%20me%20Suraj%20stone%20art%20catelog ."
+        target="_blank">
+        <div class="whapp-btn">
+          <img
+            src="https://uploads-ssl.webflow.com/62b5ca109278e030a060e942/62bf28776d90ec6fa2bec0f4_iconmonstr-whatsapp-1-240.png">
+        </div>
+      </a>
+      <!-- for whatsapp flot icon end   -->
+<!-- whatsapp fixed icon html end  -->
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header-left">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo-1.png" alt="" /></a>
+						</div>
+						<div class="menu">
+							<a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+							<ul class="nav" id="nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="team.html">About us</a></li>
+								<li><a href="products.html">Stone Products</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="header_right">
+						<!-- start search-->
+						<div class="search-box">
+							<div id="sb-search" class="sb-search">
+								<form>
+									<input class="sb-search-input" placeholder="Enter your search term..." type="search"
+										name="search" id="search">
+									<input class="sb-search-submit" type="submit" value="">
+									<span class="sb-icon-search"> </span>
+								</form>
+							</div>
+						</div>
+						<!----search-scripts---->
+						<script src="js/classie.js"></script>
+						<script src="js/uisearch.js"></script>
+						<script>
+							new UISearch(document.getElementById('sb-search'));
+						</script>
+						<!----//search-scripts---->
+						<ul class="icon1 sub-icon1 profile_img">
+							<li><a class="active-icon c1" href="#"> </a>
+								<ul class="sub-icon1 list">
+									<div class="product_control_buttons">
+										<a href="#"><img src="images/edit.png" alt="" /></a>
+										<a href="#"><img src="images/close_edit.png" alt="" /></a>
+									</div>
+									<div class="clear"></div>
+									<li class="list_img"><img src="images/1.jpg" alt="" /></li>
+									<li class="list_desc">
+										<h4><a href="#">stone</a></h4><span class="actual">1 x
+											₹12.00</span>
+									</li>
+									<div class="login_buttons">
+										<div class="check_button"><a href="checkout.html">Check out</a></div>
+										<div class="login_button"><a href="login.html">Login</a></div>
+										<div class="clear"></div>
+									</div>
+									<div class="clear"></div>
+								</ul>
+							</li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<!-- <p class="section-subtitle">Photo Gallery</p> -->
+
+		<h2 class="h2 section-title">Jodhpuri Stone Masterpieces: A Visual Symphony of Elegance</h2>
+
+		<p class="section-text">
+			Explore the timeless elegance and craftsmanship embodied in our exclusive collection of Jodhpuri stone
+			products. From intricately carved temple sculptures and ornate front elevations to exquisite stone jali
+			designs and durable paving options, each piece reflects the rich heritage and artistic finesse of Jodhpur.
+			Immerse yourself in the beauty of Jodhpuri stone creations that seamlessly blend tradition with contemporary
+			design, adding a touch of regality to every space.
+		</p>
+	</div>
+
+	<div class="welcome_gallery"></div>
+	<div class="main">
+		<div class="shop_top">
+			<div class="container">
+				<div div class="row ex_box">
+					<h3 class="m_2" style="margin-bottom: 3px;">Front Elevations:-</h3>
+					<p class="section-text">Highlight stunning examples of Jodhpuri stone front elevations, showcasing
+						the grandeur and architectural beauty.</p> <br>
+
+
+
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone front elevtion/front_Elevation-1.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone front elevation"><img
+									src="images/products/stone front elevtion/front_Elevation-1.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone front elevation-1
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone front elevtion/front_Elevation-2.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone front elevation-2"><img
+									src="images/products/stone front elevtion/front_Elevation-2.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone front elevation-2
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1" style="margin-bottom: 20px;">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone front elevtion/front_Elevation-3.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone front elevation-3"><img
+									src="images/products/stone front elevtion/front_Elevation-3.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone front elevation-3
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone front elevtion/front_Elevation-4.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone front elevation-4"><img
+									src="images/products/stone front elevtion/front_Elevation-4.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone front elevation-4
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone front elevtion/front_Elevation-5.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone front elevation-5"><img
+									src="images/products/stone front elevtion/front_Elevation-5.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone front elevation-5
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone front elevtion/front_Elevation-7.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone front elevation-6"><img
+									src="images/products/stone front elevtion/front_Elevation-7.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone front elevation-6
+								</div>
+							</a>
+						</div>
+					</div>
+						<button class="btn"> More Front elevation stone</button>
+
+<!-- 2nd -->
+
+					<h3 class="m_2" style="margin-bottom: 3px;">Stone Cladding:-</h3>
+					<p class="section-text">"Stone cladding transforms spaces with the timeless beauty of natural stone, enhancing both exteriors and interiors."</p> <br>
+
+
+
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone cladding/80534903.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone Clading -1"><img
+									src="images/products/stone cladding/80534903.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone Clading -1
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone cladding/2071Mouldings.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone Clading -2"><img
+									src="images/products/stone cladding/2071Mouldings.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone Clading -2
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1" style="margin-bottom: 20px;>
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone cladding/56904902.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone Clading -3"><img
+									src="images/products/stone cladding/56904902.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone Clading -3
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone cladding/6777T 82.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone Clading -4"><img
+									src="images/products/stone cladding/6777T 82.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone Clading -4
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone cladding/7104T 79.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone Clading -5"><img
+									src="images/products/stone cladding/7104T 79.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone Clading -5
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/stone cladding/7393T 78.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone Clading -6"><img
+									src="images/products/stone cladding/7393T 78.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone Clading -6
+								</div>
+							</a>
+						</div>
+					</div>
+					
+
+
+					<!-- <button class="btn"> More Front elevation stone</button> -->
+
+
+					<!-- 3rd -->
+					<h3 class="m_2" style="margin-bottom: 3px;">Stone gate:-</h3>
+					<p class="section-text">"A stone gate stands as a majestic entrance, blending strength and elegance to welcome with enduring allure."</p> <br>
+
+
+
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/Stone Gate/1.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone gate - 1"><img
+									src="images/products/Stone Gate/1.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone gate-1
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/Stone Gate/2.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone gate -2 "><img
+									src="images/products/Stone Gate/2.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone gate-2
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2" style="margin-bottom: 20px;">
+							<a class="fancybox" href="images/products/Stone Gate/3.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone gate - 3"><img
+									src="images/products/Stone Gate/3.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone gate-3
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/Stone Gate/4.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone gate -4 "><img
+									src="images/products/Stone Gate/4.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone gate-4
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/Stone Gate/5.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone gate -5 "><img
+									src="images/products/Stone Gate/5.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone gate-5
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 team1">
+						<div class="img_section magnifier2">
+							<a class="fancybox" href="images/products/Stone Gate/6.jpg"
+								data-fancybox-group="gallery" title="Jodhpuri Stone gate -6 "><img
+									src="images/products/Stone Gate/6.jpg"
+									class="img-responsive" alt=""><span> </span>
+								<div class="img_section_txt">
+									Jodhpuri Stone gate-6
+								</div>
+							</a>
+						</div>
+					</div>
+					
+				<!-- <button class="btn"> More Front elevation stone</button> -->
+				<!-- 4th -->
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<!-- tiles scrolling start -->
+	<div class="main">
+		<div class="content-top">
+			<h3 class="m_2"  style="margin-left: 5%;">Stone Slabs / Tiles:-</h3>
+			<p class="section-text" style=" margin-left:4.5% ;  margin-right:%;">"Stone slabs and tiles, meticulously crafted, bring the timeless beauty of natural stone to your spaces, adding a touch of sophistication and durability."</p>
+		
+				<ul id="flexiselDemo3">
+				<li><img src="images/products/Stone Tiles/4325Jodhpur Pink Liner.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/4833Jodhpur Pink.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/desert-multi-color-stone-.jpg   " /></li>
+				<li><img src="images/products/Stone Tiles/fine_edge_finish_jodhpur_pink_sandstone.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/fine_edge_finish_jodhpur_pink_sandstone.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/flamed_finish_jodhpur_pink_sandstone.gif    " /></li>
+				<li><img src="images/products/Stone Tiles/honed_finish_jodhpur_pink_sandstone.gif   " /></li>
+				<li><img src="images/products/Stone Tiles/Jodhpur Pink Chiselled.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/Jodhpur Pink Flamed.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/Jodhpur Pink Lichi.jpg  " /></li>
+				<li><img src="images/products/Stone Tiles/Jodhpur Pink Liner Chiselled.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/Jodhpur pink polished.jpg   " /></li>
+				<li><img src="images/products/Stone Tiles/Jodhpur Pink Rockface.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/Jodhpur Pink Sandblasted.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/lychee_finish_jodhpur_pink_sandstone.gif    " /></li>
+				<li><img src="images/products/Stone Tiles/pineapple_finish_jodhpur_pink_sandstone.gif  " /></li>
+				<li><img src="images/products/Stone Tiles/sand_blast_polish_jodhpur_pink_sandstone.jpg    " /></li>
+				<li><img src="images/products/Stone Tiles/shot_blast_finish_jodhpur_pink_sandstone.gif    " /></li>
+			</ul>
+		<!-- <h3>SnowBoard Extreme Series</h3> -->
+			<script type="text/javascript">
+		$(window).load(function() {
+			$("#flexiselDemo3").flexisel({
+				visibleItems: 5,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+		    	responsiveBreakpoints: { 
+		    		portrait: { 
+		    			changePoint:480,
+		    			visibleItems: 1
+		    		}, 
+		    		landscape: { 
+		    			changePoint:640,
+		    			visibleItems: 2
+		    		},
+		    		tablet: { 
+		    			changePoint:768,
+		    			visibleItems: 3
+		    		}
+		    	}
+		    });
+		    
+		});
+		</script>
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+	</div>
+
+
+
+	<!-- tiles scrolling end -->
+
+
+	<!-- 
+		grid view of iamges start  here
+	 -->
+	 <section class="photo-grid">
+		<div class="grid-item" id="photo1">
+			<img src="./images/products/factory/backrest-stone-bench-250x250.jpg" alt="Photo 1">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/decorative-stone-pot-250x250.jpg      " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/dholpur-red-stone-500x500.jpg      " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/jodhpur-stone-door-partition-500x500 (1).jpg      " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/Pink_Slabs2.jpeg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/Pink_Slabs3.jpeg      " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/product-jpeg-500x500 (1).jpg      " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/jodhpur-stone-door-partition-500x500 (2).jpg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/send-stone-sleb-500x500.jpg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/Slabs.jpeg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/stone-door-frame-500x500.jpg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/stone-fountain-250x250.jpg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/stone-lamp-250x250.jpg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/stone-main-gate-chokat-250x250.jpg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/stone-pillar-250x250.jpg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/stone-sculpture-250x250.jpg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/stone-sign-board-250x250.jpg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/suraj -stone-art-jodhpur-sandstone-dealers.jpg     " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/suraj sand stone white-cobble-stone-500x500.jpg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/suraj stone art  jodhpur a.jpg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/suraj stone art jodhpur.jpg   " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/suraj stone art red-sandstone-coping-500x500.jpeg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/suraj stone jodhpuri-sandstone-slab-500x500.jpg   " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/suraj stone pink-cobble-stone-500x500.jpg   " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/suraj stons red-sandstone-coping-500x500.jpeg   " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/surajstone -555x415.jpg   " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/surajstone mandana-red-sandstone-cobble-stone-500x500.jpeg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/surajstoneart-red-sandstone-cobble-stone-500x500.jpeg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/temple-sandstone-500x500.jpg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/Tiles1.jpeg    " alt="Photo 2">
+		</div>
+		<div class="grid-item" id="photo2">
+			<img src="./images/products/factory/WhatsApp Image 2020-12-24 at 9.04.01 AM.jpeg   " alt="Photo 2">
+		</div>
+		
+		<!-- Add more grid items as needed -->
+	</section>
+	
+	<!-- Lightbox container -->
+	<div class="lightbox" id="lightbox">
+		<span class="close" id="close">&times;</span>
+		<img class="lightbox-content" id="lightbox-content">
+	</div>
+	
+	<!-- 
+		grid view of iamges end  here
+	 -->
+
+
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.187492330443!2d72.89026747432014!3d26.352797083930447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39419b8d9a79ea29%3A0x2a269789bdf9bf20!2sSuraj%20Stone%20Art!5e0!3m2!1sen!2sin!4v1708247855410!5m2!1sen!2sin"
+						width="250" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Products</h4>
+						<li><a href="#">Products-1</a></li>
+						<li><a href="#">Products-2</a></li>
+						<li><a href="#">Products-3</a></li>
+						<li><a href="#">Products-4</a></li>
+
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Links</h4>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./team.html">About US</a></li>
+						<li><a href="./shop.html">Stone Product</a></li>
+						<li><a href="./experiance.html">Gallery</a></li>
+						<li><a href="./contact.html">Contact US</a></li>
+						<li><a href="./team.html">Our team</a></li>
+						<li><a href="#">Calalog Request</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer_box">
+						<h4>Newsletter</h4>
+						<div class="footer_search">
+							<form>
+								<input type="text" value="Enter your email" onfocus="this.value = '';"
+									onblur="if (this.value == '') {this.value = 'Enter your email';}">
+								<input type="submit" value="Go">
+							</form>
+						</div>
+						<ul class="social">
+							<li class="facebook"><a href="#"><span> </span></a></li>
+							<li class="twitter"><a href="#"><span> </span></a></li>
+							<li class="instagram"><a href="#"><span> </span></a></li>
+							<li class="pinterest"><a href="#"><span> </span></a></li>
+							<li class="youtube"><a href="#"><span> </span></a></li>
+						</ul>
+
+					</ul>
+				</div>
+			</div>
+			<div class="row footer_bottom">
+				<div class="copy">
+					<p>© 2024 | All rights reserved to suraj stone art | Designed by - Mahendra Singh Puniya</p>
+				</div>
+				<dl id="sample" class="dropdown">
+					<dt><a><span>Change Region</span></a></dt>
+					<dd>
+						<ul>
+							<li><a href="#">India<img class="flag" src="images/as.png" alt="" /><span
+										class="value">IN</span></a></li>
+							<li><a href="#">United State<img class="flag" src="images/as.png" alt="" /><span
+										class="value">USA</span></a></li>
+							<li><a href="#">Nepal<img class="flag" src="images/as.png" alt="" /><span
+										class="value">IN</span></a></li>
+							<li><a href="#">China<img class="flag" src="images/as.png" alt="" /><span
+										class="value">IN</span></a></li>
+							<li><a href="#">China<img class="flag" src="images/as.png" alt="" /><span
+										class="value">IN</span></a></li>
+
+						</ul>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<script src="./scroll.js"></script>
+</body>
+
+</html>
