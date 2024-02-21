@@ -131,7 +131,8 @@ body a{
 }
 .header-left{
 	float:left;
-	width: 59%;
+	width: 70%;
+	/* padding-right: 10%; */
 }
 .logo{
 	float:left;
@@ -162,10 +163,13 @@ body a{
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	font-weight: 600;
+	/* left: 400px; */
+	/* right: 5px; */
  }
  .menu li a:hover ,.menu li.active a{
 	 background:#fff;
 	 color:#000;
+	 /* border-radius: 80%; */
  } 
  #nav .current a {
 	 color:red;
@@ -666,7 +670,6 @@ li.list_desc h4 a:hover{
 	background: url(../images/home/bg_1.png)no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
 	background-size: 100% 100%;
