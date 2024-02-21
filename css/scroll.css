@@ -179,3 +179,50 @@
     }
 
     /* photo grid end  */
+
+
+
+    /* for pdf doenlaod start  */
+/* Common styles for both desktop and mobile */
+.custom-download-button {
+  margin: 0 38% 0 40%;
+}
+
+.custom-download-button .download-button {
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.custom-download-button .download-button:hover {
+  background-color: #2980b9;
+}
+
+/* Mobile view adjustments */
+@media screen and (max-width: 768px) {
+  .custom-download-button {
+    margin: 5vh 10% 5vh 10%;
+  }
+
+  .custom-download-button .download-button {
+    padding: 15px 20px;
+    font-size: 14px;
+    background-color: #3498db;
+
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* font-size: 16px; */
+    transition: background-color 0.3s;
+  }
+}
+
+    /* for pdf doenlaod end */
+
+
